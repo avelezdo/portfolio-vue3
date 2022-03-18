@@ -1,7 +1,6 @@
 import { projects as myProjects } from './projects.js'
 
-let skills = ['Proyectos recientes', 'SCSS', 'Vue.js 2', 'Vue.js 3', 'Node.js/Express']
-
+let skills = ['Proyectos recientes', 'Todos', 'SCSS', 'Vue.js 2', 'Vue.js 3', 'Node.js/Express']
 let selectedSkill = null
 
 let renderSkills = function (num) {
@@ -105,7 +104,7 @@ let addTechnologies = function (project) {
 }
 
 let filterProjects = function (query) {
-	if (selectedSkill === 'All') {
+	if (selectedSkill === 'Todos') {
 		return myProjects
 	}
 	if (selectedSkill === 'Proyectos recientes') {
