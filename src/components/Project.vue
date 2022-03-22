@@ -1,14 +1,8 @@
 <template>
 	<section class="section__body projects">
 		<h2 class="section__header header-with-tag">Proyectos</h2>
-		<!-- <p class="section__copy">
-			I've pinned some of my recent projects. If you'd like to see other projects I've worked on, you can sort through the applied skills and technologies
-			below.
-		</p> -->
-		<!-- This is where skills will render -->
 		<ul class="list__skills"></ul>
 		<p class="section__copy projects-listed"></p>
-		<!-- This is where projects will render -->
 		<ul class="list__projects"></ul>
 	</section>
 </template>
