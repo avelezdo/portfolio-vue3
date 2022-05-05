@@ -10,7 +10,6 @@ export default defineConfig({
 	// 	format: 'es',
 	// },
 	plugins: [vue(), copy([{ src: './src/assets/images/project-images', dest: './public/project-images' }])],
-	plugins: [vue()],
 	css: {
 		preprocessorOptions: {
 			scss: {
